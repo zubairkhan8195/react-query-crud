@@ -1,10 +1,10 @@
-import React from "react";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Avatar } from "@mui/material";
+import Image from "next/image";
+import React from "react";
 
-const LoginPage = () => {
+const RegisterPage = () => {
   return (
     <div className="bg-primary-100 h-screen flex items-center justify-center">
       <div className="flex w-[1350px] relative">
@@ -21,6 +21,7 @@ const LoginPage = () => {
               />
             </div>
           </div>
+
           <div className="w-[400px] mx-auto">
             {/* heading */}
             <h1 className="text-2xl text-center font-bold tracking-wide">
@@ -123,4 +124,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default RegisterPage;
